@@ -16,4 +16,10 @@ p {
 
 /* Selektor klasy */
 
-.link {}
+.link {
+    background-color: green;
+}
+
+.link.first-link {
+    background-color: aqua;
+}
