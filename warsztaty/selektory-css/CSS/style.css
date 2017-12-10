@@ -4,8 +4,16 @@ p {
     background-color: red;
 }
 
+
+
 /* Selektor ID */
 
 #main-text {
     background-color: blue;
 }
+
+
+
+/* Selektor klasy */
+
+.link {}
