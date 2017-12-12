@@ -23,3 +23,58 @@ p {
 .link.first-link {
     background-color: aqua;
 }
+
+.new-link,
+.first-link {
+    font-size: 50px;
+}
+
+
+
+/* Selektor potomka bezpośredniego */
+
+section > span {
+    background-color: purple;
+}
+
+
+
+/* Selektor potomka */
+
+section span {
+    font-size: 50px;
+}
+
+
+
+/* Selektor bezpośredniego rodzeństwa */
+
+.article-header + .main-text {
+    font-size: 2em;
+}
+
+/* Selektor rodzeństwa */
+
+.article-header ~ .main-text {
+    color: white;
+}
+
+
+
+/* Hierarchia znaczników*/
+
+#main-container {
+    background-color: darkorange;
+}
+
+.container {
+    background-color: lightblue;
+}
+
+div {
+    background-color: purple;
+}
+
+* {
+    background-color: green !important;
+}
