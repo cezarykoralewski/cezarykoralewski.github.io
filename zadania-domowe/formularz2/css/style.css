@@ -1,11 +1,6 @@
-span {
-    background-color: white;
-    margin-top: -20px;
-}
-
-div {
+fieldset {
     border: solid 1px black;
-    padding: 1em;
+    padding: 10px;
     margin-top: 10px;
 }
 

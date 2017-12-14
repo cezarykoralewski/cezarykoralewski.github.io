@@ -9,8 +9,8 @@
 
 <body>
     <form action="https://formspree.io/koralewski.cezary@gmail.com" method="POST" autocomplete="on">
-        <div>
-            <h3><span>Customer Info</span></h3>
+        <fieldset>
+            <legend>Customer Info</legend>
 
             <p>
                 <label>Name: <input type="text" name="name" placeholder="Enter your name" autofocus required></label>
@@ -24,11 +24,11 @@
                 <label>Email address: <input type="email" name="email" placeholder="Enter your email address" required></label>
             </p>
 
-        </div>
+        </fieldset>
 
-        <div>
+        <fieldset>
 
-            <h3><span>Books</span></h3>
+            <legend>Books</legend>
 
             <p>
                 <select name="book">
@@ -42,7 +42,7 @@
                 <label>Quantity (Maximum 5): <input type="number" name="quantity" min="1" max="5" sixe=3></label>
             </p>
 
-        </div>
+        </fieldset>
 
         <input type="submit" value="Submit" id="submit">
 
