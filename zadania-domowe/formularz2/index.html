@@ -17,7 +17,7 @@
             </p>
 
             <p>
-                <label>Telephone: <input type="tel" name="telephone" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" size="14" required></label>
+                <label>Telephone: <input type="tel" name="telephone" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" size="18" required></label>
             </p>
 
             <p>
@@ -27,17 +27,20 @@
         </div>
 
         <div>
+
             <span>Books</span>
 
-            <select name="book">
-                <option value="cracow">Kraków</option>
-                <option value="warsaw">Warszawa</option>
-                <option value="gdansk">Gdańsk</option>
-                <option value="gdansk">Gdańsk</option>
-                <option value="gdansk">Gdańsk</option>
-            </select>
+            <p>
+                <select name="book">
+                    <option value="PanTadeusz">"Pan Tadeusz", Adam Mickiewicz</option>
+                    <option value="Potop">"Potop", Henryk Sienkiewicz</option>
+                    <option value="OgniemIMieczem">"Ogniem i Mieczem", Henryk Sienkiewicz</option>
+                    <option value="Wesele">"Wesele", Stanisław Wyspiański</option>
+                    <option value="Chlopi">"Chłopi", Władysław Reymont</option>
+                </select>
 
-
+                <label>Quantity (Maximum 5): <input type="number" name="quantity" min="1" max="5"></label>
+            </p>
 
         </div>
 
