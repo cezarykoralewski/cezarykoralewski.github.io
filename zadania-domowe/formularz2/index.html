@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/koralewski.cezary@gmail.com" method="POST" autocomplete="on">
+        <div>
+            <span>Customer Info</span>
+
+            <p>
+                <label>Name: <input type="text" name="name" placeholder="Enter your name" autofocus required></label>
+            </p>
+
+            <p>
+                <label>Telephone: <input type="tel" name="telephone" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" size="14" required></label>
+            </p>
+
+            <p>
+                <label>Email address: <input type="email" name="email" placeholder="Enter your email address" required></label>
+            </p>
+
+        </div>
+
+        <div>
+            <span>Books</span>
+
+            <select name="book">
+                <option value="cracow">Kraków</option>
+                <option value="warsaw">Warszawa</option>
+                <option value="gdansk">Gdańsk</option>
+                <option value="gdansk">Gdańsk</option>
+                <option value="gdansk">Gdańsk</option>
+            </select>
+
+
+
+        </div>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
