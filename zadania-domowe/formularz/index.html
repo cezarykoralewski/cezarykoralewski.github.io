@@ -8,39 +8,29 @@
 
 <body>
     <form action="https://formspree.io/koralewski.cezary@gmail.com" method="POST">
-
         <label>Imię: <input type="text" name="firstname"></label><br>
-
         <label>Nazwisko: <input type="text" name="lastname"></label><br>
-
         <label>E-mail: <input type="email" name="_replyto"></label><br>
-
         <label>Numer telefonu: <input type="text" name="phone"></label><br><br>
 
-
-        <label>Miasto: <br>
-        <select name="town">
-            <option value="cracow">Kraków</option>
-            <option value="warsaw">Warszawa</option>
-            <option value="gdansk">Gdańsk</option>
-        </select>
+        <label>Miasto:
+            <select name="town">
+                <option value="cracow">Kraków</option>
+                <option value="warsaw">Warszawa</option>
+                <option value="gdansk">Gdańsk</option>
+            </select>
         </label><br><br>
 
-
-        <p>Płeć: </p>
+        <p>Płeć:</p>
         <label><input type="radio" name="sex" value="m"> Mężczyzna</label> <br>
         <label><input type="radio" name="sex" value="f"> Kobieta</label><br><br>
 
-
         <label>Wyrażam zgodę na przetwarzanie danych osobowych <input type="checkbox" name="agree"></label><br><br>
-
 
         <label>Wiadomość:<br>
         <textarea name="message"></textarea></label><br><br>
 
-
         <input type="submit" value="Wyślij">
-
     </form>
 
 </body>
