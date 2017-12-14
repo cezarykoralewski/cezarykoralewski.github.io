@@ -9,19 +9,29 @@
 
 <body>
     <form action="https://formspree.io/koralewski.cezary@gmail.com" method="POST" autocomplete="on">
+
         <fieldset>
             <legend>Customer Info</legend>
 
             <p>
-                <label>Name: <input type="text" name="name" placeholder="Enter your name" class="field" autofocus required></label>
+                <label>
+                Name: 
+                    <input type="text" name="name" placeholder="Enter your name" class="field" autofocus required>
+                </label>
             </p>
 
             <p>
-                <label>Telephone: <input type="tel" name="telephone" placeholder="Pattern: 1-234-567-8910" class="field" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" size=18 required></label>
+                <label>
+                Telephone: 
+                    <input type="tel" name="telephone" placeholder="Pattern: 1-234-567-8910" class="field" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" size=18 required>
+                </label>
             </p>
 
             <p>
-                <label>Email address: <input type="email" name="email" placeholder="Enter your email address" class="field" required></label>
+                <label>
+                Email address: 
+                    <input type="email" name="email" placeholder="Enter your email address" class="field" required multiple>
+                </label>
             </p>
 
         </fieldset>
@@ -39,7 +49,11 @@
                     <option value="Chlopi">"Chłopi", Władysław Reymont</option>
                 </select>
 
-                <label>Quantity (Maximum 5): <input type="number" name="quantity" min="1" max="5" class="number"></label>
+                <label>
+                Quantity (Maximum 5): 
+                    <input type="number" name="quantity" min="1" max="5" class="number">
+                </label>
+
             </p>
 
         </fieldset>
