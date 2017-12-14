@@ -1,10 +1,14 @@
 span {
     background-color: white;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 div {
     border: solid 1px black;
     padding: 1em;
+    margin-top: 10px;
+}
+
+#submit {
     margin-top: 10px;
 }
