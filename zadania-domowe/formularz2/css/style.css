@@ -6,4 +6,5 @@ span {
 div {
     border: solid 1px black;
     padding: 1em;
+    margin-top: 10px;
 }
