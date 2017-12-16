@@ -6,7 +6,8 @@ body {
 input,
 select,
 textarea {
-    background-color: #2b4a64
+    background-color: #2b4a64;
+    width: 300px;
 }
 
 input:active,
