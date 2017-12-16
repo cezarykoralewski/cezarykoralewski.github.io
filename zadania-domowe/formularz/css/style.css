@@ -2,3 +2,14 @@ body {
     background-color: #213b50;
     color: white;
 }
+
+input,
+select {
+    background-color: #2b4a64
+}
+
+input: active,
+select: active {
+    background-color: #4e708c;
+    border: solid 1px white;
+}
