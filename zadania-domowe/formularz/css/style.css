@@ -1,26 +1,36 @@
 body {
     background-color: #213b50;
     color: white;
+    padding: 20px;
 }
 
-input,
-select,
-textarea {
+.width {
     background-color: #2b4a64;
     width: 300px;
+    margin-top: 5px;
+    color: white;
+    border: #213b50;
+    height: 20px;
+    padding: 4px 4px;
 }
 
-input:active,
-select:active,
-textarea:active {
+input:focus,
+select:focus,
+textarea:focus {
     background-color: #4e708c;
-    border: solid 1px white;
+    border: white;
 }
 
 #submit {
-    background-color: lawngreen;
+    background-color: limegreen;
     color: white;
     font-size: 14px;
     text-transform: uppercase;
     padding: 10px;
+    width: 100px;
+    font-weight: 500;
+}
+
+#message {
+    height: 100px;
 }

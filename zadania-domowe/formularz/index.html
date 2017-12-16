@@ -9,26 +9,44 @@
 
 <body>
     <form action="https://formspree.io/koralewski.cezary@gmail.com" method="POST">
-        <label>Imię:<br> <input type="text" name="firstname"></label><br>
-        <label>Nazwisko:<br> <input type="text" name="lastname"></label><br>
-        <label>E-mail:<br> <input type="email" name="_replyto"></label><br>
-        <label>Numer telefonu:<br> <input type="text" name="phone"></label><br><br>
+        <p>
+            <label>Imię:<br> <input type="text" name="firstname" class="width"></label>
+        </p>
 
-        <label>Wybierz miasto:<br>
-            <select name="town">
+        <p>
+            <label>Nazwisko:<br> <input type="text" name="lastname" class="width"></label>
+        </p>
+
+        <p>
+            <label>E-mail:<br> <input type="email" name="_replyto" class="width"></label>
+        </p>
+
+        <p>
+            <label>Numer telefonu:<br> <input type="text" name="phone" class="width"></label>
+        </p>
+
+        <p>
+            <label>Wybierz miasto:<br>
+            <select name="town" class="width">
                 <option value="cracow">Kraków</option>
                 <option value="warsaw">Warszawa</option>
                 <option value="gdansk">Gdańsk</option>
             </select>
-        </label><br>
+        </label>
+        </p>
 
-        <p>Wybierz płeć:</p>
-        <label><input type="radio" name="sex" value="m"> Mężczyzna</label><br>
-        <label><input type="radio" name="sex" value="f"> Kobieta</label><br><br>
+        <p>
+            <label>Wybierz płeć:</label><br>
+            <label><input type="radio" name="sex" value="m"> Mężczyzna</label><br>
+            <label><input type="radio" name="sex" value="f"> Kobieta</label><br>
+        </p>
 
-        <label>Wiadomość:<br>
-        <textarea name="message"></textarea></label><br>
-        <label><input type="checkbox" name="agree"> Wyrażam zgodę na przetwarzanie danych osobowych </label><br><br>
+        <p>
+            <label>Wiadomość:<br>
+        <textarea name="message" class="width" id="message"></textarea></label><br>
+
+            <label><input type="checkbox" name="agree"> Wyrażam zgodę na przetwarzanie danych osobowych </label><br>
+        </p>
 
         <input type="submit" value="Wyślij" id="submit">
     </form>
