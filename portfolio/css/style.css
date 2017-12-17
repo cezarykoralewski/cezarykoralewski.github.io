@@ -3,6 +3,8 @@ body {
     color: #291f1a;
     margin: 0;
     font-weight: 300;
+    background-color: #f9fcfe;
+    overflow-x:
 }
 
 #main-nav li {
@@ -25,4 +27,60 @@ body {
 
 #main-nav a:hover {
     color: #291f1a;
+}
+
+.main-header-content {
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 30vh;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 8em;
+    margin-bottom: -20px;
+
+}
+
+span {
+    color: #1ac056;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#about {
+    box-sizing: border-box;
+    padding: 0 80px 100px;
+    width: 100%;
+}
+
+figure img {
+    max-height: 350px;
+    margin: auto;
+    max-width: 100%;
+    border: solid white 15px;
+    border-radius: 15px;
+}
+
+figure {
+    width: 50%;
+    margin: 0px;
+    float: left;
+}
+
+article {
+    width: 50%;
+    float: left;
 }
