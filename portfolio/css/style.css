@@ -18,7 +18,8 @@ body {
     font-weight: 300;
     text-decoration: none;
     width: 100%;
-    text-align: right
+    text-align: right;
+    z-index: 1;
 }
 
 #main-nav a {
@@ -66,7 +67,7 @@ h2 {
     box-sizing: border-box;
     padding: 0 80px 100px;
     width: 100%;
-    margin-bottom: 400px
+    margin-bottom: 400px;
 }
 
 #about > figure > img {
@@ -90,12 +91,12 @@ article {
 
 #skills {
     text-align: center;
-    padding: 30px
+    padding: 30px;
 }
 
 #skills-icons figure {
     display: inline-block;
-    text-align: center
+    text-align: center;
 }
 
 #contact {
@@ -170,7 +171,8 @@ input:focus,
     width: 150px;
     position: absolute;
     right: 0px;
-    padding: 15px 30px text-transform: uppercase;
+    padding: 15px 30px;
+    text-transform: uppercase;
     border: 1px solid #1ac056;
     background-color: #1ac056;
     color: #fff;
@@ -179,4 +181,75 @@ input:focus,
 #submit:hover {
     background-color: #fff;
     color: #1ac056;
+}
+
+#portfolio {
+    text-align: center;
+    font-size: 0;
+}
+
+.portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+.item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+}
+
+.item-mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.item-content {
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+
+.item-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px;
+    color: #fff;
+}
+
+.item-content-inner i:hover {
+    color: #1ac056;
+}
+
+footer p {
+    background-color: #142634;
+    padding: 2px 80px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
 }
