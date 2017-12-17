@@ -23,6 +23,7 @@ body {
 
 #main-nav a {
     padding: 20px;
+    text-decoration: none;
 }
 
 #main-nav a:hover {
@@ -58,15 +59,17 @@ h2 {
     margin-bottom: 35px;
     font-size: 30px;
     text-align: center;
+    display: block;
 }
 
 #about {
     box-sizing: border-box;
     padding: 0 80px 100px;
     width: 100%;
+    margin-bottom: 400px
 }
 
-figure img {
+#about > figure > img {
     max-height: 350px;
     margin: auto;
     max-width: 100%;
@@ -74,7 +77,7 @@ figure img {
     border-radius: 15px;
 }
 
-figure {
+#about figure {
     width: 50%;
     margin: 0px;
     float: left;
@@ -83,4 +86,14 @@ figure {
 article {
     width: 50%;
     float: left;
+}
+
+#skills {
+    text-align: center;
+    padding: 30px
+}
+
+#skills-icons figure {
+    display: inline-block;
+    text-align: center
 }
