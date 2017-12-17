@@ -1,0 +1,111 @@
+@media all and (max-width: 1200px) {
+
+    .portfolio-item {
+        width: 50%;
+    }
+
+    .portfolio-item:last-child {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 992px) {
+    .toggle {
+        display: block;
+        background-color: white;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+
+    nav > ul > li {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: right;
+    }
+
+    .main-header-content {
+        padding: 10px;
+    }
+
+    #about figure {
+        width: 100%;
+        text-align: center;
+    }
+
+    #about img {
+        max-height: inherit;
+
+    }
+
+    article {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #skills h2 {
+        margin-top: 100px;
+    }
+
+    .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-data ul {
+        margin: 0px;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    section {
+        padding: 0 40px 50px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .main-header-content {
+        padding-top: 100px;
+    }
+
+
+}
+
+@media all and (max-width: 576px) {
+    section {
+        padding: 0 10px 30px;
+    }
+}
+
+#drop {
+    display: none;
+}
