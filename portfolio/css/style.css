@@ -108,7 +108,7 @@ article {
 #contact h2 {
     color: white;
     text-align: left;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 address {
@@ -161,8 +161,22 @@ input,
     background-color: #2b4a64;
 }
 
+input:focus,
+.input:focus {
+    background-color: #426684;
+}
+
 #submit {
     width: 150px;
     position: absolute;
-    right: 0px padding
+    right: 0px;
+    padding: 15px 30px text-transform: uppercase;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: #1ac056;
 }
