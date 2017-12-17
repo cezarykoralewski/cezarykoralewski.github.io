@@ -4,3 +4,25 @@ body {
     margin: 0;
     font-weight: 300;
 }
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav {
+    position: fixed;
+    background-color: #ffffff;
+    color: #1ac056;
+    font-weight: 300;
+    text-decoration: none;
+    width: 100%;
+    text-align: right
+}
+
+#main-nav a {
+    padding: 20px;
+}
+
+#main-nav a:hover {
+    color: #291f1a;
+}
