@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: 'Verdana', sans-serif;
+}
+
+header {
+    background-image: url(../img/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+#text-over-photo {
+    display: none;
+}
+
+#text-below-photo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}

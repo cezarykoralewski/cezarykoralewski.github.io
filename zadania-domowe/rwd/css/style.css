@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Verdana', sans-serif;
+}
+
+@media all and (max-width: 992px) {
+
+    section #text-front-photo {
+        display: none;
+    }
+
+    header #text-below-photo {
+        text-align: center;
+    }
+
+    header #main-photo {
+        height: 50vh;
+        width: 100%;
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1170) {
+
+    header #text-below-photo {
+        display: none;
+    }
+
+    section #text-front-photo {
+        display: block;
+        color: white;
+        z-index: 1;
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        text-align: left;
+    }
+
+    header #main-photo {
+        height: 70vh;
+        width: 100%;
+        background-image: url(../img/man-2.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media all and (min-width:1170px) {
+
+    header #text-below-photo {
+        display: none;
+    }
+
+    section #text-front-photo {
+        display: block;
+        color: white;
+        z-index: 1;
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: 50%px;
+        left: 50px;
+        text-align: left;
+    }
+
+    header #main-photo {
+        height: 100%vh;
+        width: 100%;
+        background-image: url(../img/man-1.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+}
