@@ -3,26 +3,53 @@ body {
 }
 
 #gallery {
+    display: block;
     width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 .product {
     width: 20%;
-    margin: 5px;
+    margin: 20px;
+    display: inline-block;
+    height: 250px;
+    background-position: center;
+    background-size: cover
 }
 
-.colon {
-    background-image: url(../img/product-1.jpg)
+#colon {
+    background-image: url(../img/product-1.jpg);
 }
 
-.taragui {
-    background-image: url(../img/product-2.jpg)
+#taragui {
+    background-image: url(../img/product-2.jpg);
 }
 
-.cbse {
-    background-image: url(../img/product-3.jpg)
+#cbse {
+    background-image: url(../img/product-3.jpg);
 }
 
-.compuesta {
-    background-image: url(../img/product-4.jpg)
+#compuesta {
+    background-image: url(../img/product-4.jpg);
+}
+
+.mask {
+    background-color: rgba(255, 111, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: relative;
+    font-size: initial;
+}
+
+.cart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
 }
