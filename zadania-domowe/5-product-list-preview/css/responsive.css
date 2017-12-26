@@ -1,0 +1,16 @@
+@media (max-width:480px) {
+    .product {
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) {
+    .product {
+        width: 40%;
+    }
+}
+
+
+
+projekt jest responsywny - w rozdzielczości poniżej 992px produkty mają się wyświetlać w dwóch kolumnach,
+a poniżej 480px w jednej kolumnie - do ustawienia koszyka użyj odpowiednich pozycji (relative, absolute)

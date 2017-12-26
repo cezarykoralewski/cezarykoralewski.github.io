@@ -1,0 +1,28 @@
+body {
+    background-color: #98fb98;
+}
+
+#gallery {
+    width: 100%;
+}
+
+.product {
+    width: 20%;
+    margin: 5px;
+}
+
+.colon {
+    background-image: url(../img/product-1.jpg)
+}
+
+.taragui {
+    background-image: url(../img/product-2.jpg)
+}
+
+.cbse {
+    background-image: url(../img/product-3.jpg)
+}
+
+.compuesta {
+    background-image: url(../img/product-4.jpg)
+}
