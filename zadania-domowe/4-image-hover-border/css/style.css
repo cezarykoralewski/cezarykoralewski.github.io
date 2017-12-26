@@ -1,0 +1,29 @@
+#ramka {
+    border: 3px solid black;
+    padding: 5px;
+    width: 650px;
+    height: 350px;
+    margin: auto;
+    position: relative;
+}
+
+#jezioro {
+    background-image: url(../img/4-jezioro.jpg);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 650px;
+    top: 5px;
+    position: absolute;
+}
+
+h1 {
+    color: white;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 666px;
+    margin-left: -8px;
+    position: absolute;
+    top: 20%;
+    font-size: 5em;
+}
