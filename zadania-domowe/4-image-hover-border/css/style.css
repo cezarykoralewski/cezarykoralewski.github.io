@@ -26,4 +26,10 @@ h1 {
     position: absolute;
     top: 20%;
     font-size: 5em;
+    display: none;
+    transition: display 3s 0 linear;
+}
+
+h1:hover {
+    display: block;
 }
