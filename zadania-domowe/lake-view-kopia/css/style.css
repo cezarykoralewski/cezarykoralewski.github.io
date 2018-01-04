@@ -1,15 +1,10 @@
-body {
-    margin: 0;
-    background-color: pink;
-}
-
 div {
     width: 666px;
-    height: 366px;
+    height: 360px;
     
     margin: auto;
     margin-top: 50px;
-
+    
     padding: 3px; /* przestrzeń na czarną ramkę */
     
     position: relative;
@@ -63,7 +58,9 @@ div::before {
     height: 183px;
     
     left: 0;
-    top: 0;
+    top: -183px;
+    
+    opacity: 0;
 }
 
 /* ramka dol */
@@ -78,5 +75,22 @@ div::after {
     height: 183px;
     
     left: 0;
-    bottom: 6px;
+    bottom: -183px;
+    
+    opacity: 0;
+}
+
+/* animacja ramek */
+div:hover::before {
+    top: 0;
+    opacity: 1;
+    
+    transition: all 1s linear;
+}
+
+div:hover::after {
+    bottom: 0;
+    opacity: 1;
+
+    transition: all 1s linear;
 }
