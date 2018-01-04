@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+/*linki*/
+
+.left > ul {
+    position: absolute;
+    left: 0;
+    top: -60px;
+    padding: 0px;
+}
+
+.left > ul > li {
+    padding: 20px
+}
+
+.right > ul {
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    padding: 0px;
+}
+
+.right > ul > li {
+    padding: 20px
+}
+
+/* panele */
+
+.left::after {
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+    left: -50px;
+    background-color: red;
+    z-index: -1;
+    transform: rotate(-10deg);
+}
+
+.right::after {
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+    right: -50px;
+    background-color: red;
+    z-index: -1;
+    transform: rotate(10deg);
+}
+
+/* tytuł */
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    padding-top: 100px;
+
+}
