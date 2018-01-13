@@ -1,0 +1,241 @@
+/* MAIN STYLES */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.button {
+    display: block;
+    width: 300px;
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.divider {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: lightgrey;
+    border-radius: 1px;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(145, 82, 170);
+    color: white;
+    position: relative;
+    height: 600px;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    margin-top: 0px;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    padding-left: 0;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+header > nav > ul > li:hover {
+    background-color: rgb(100, 53, 119);
+}
+
+header > h1 {
+    position: absolute;
+    margin: auto;
+    top: 250px;
+    text-align: center;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+
+}
+
+header .button {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    margin-left: -150px;
+    border-bottom: solid #ff7600 5px;
+    background-color: darkorange;
+}
+
+/* TEAM */
+
+#team {
+    background-color: #d6e8f0;
+    height: 650px;
+    position: relative;
+    padding-top: 50px;
+    color: darkslategrey;
+}
+
+#team > h2 {
+    text-align: center;
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    margin-left: -175px;
+}
+
+#team > .divider {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 100px;
+}
+
+#team > p {
+    text-align: center;
+    position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    top: 100px;
+}
+
+#team > ul {
+    position: absolute;
+    top: 150px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+}
+
+#team > ul > li {
+    width: 20%;
+    display: inline-block;
+    position: relative;
+}
+
+.portrait {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: pink;
+    background-size: cover;
+}
+
+#anne {
+    background-image: url(../img/anne.png);
+}
+
+#kate {
+    background-image: url(../img/kate.png);
+}
+
+#olivia {
+    background-image: url(../img/olivia.png);
+}
+
+#ashley {
+    background-image: url(../img/ashley.jpg);
+}
+
+#team > ul > li > .name {
+    margin-bottom: 0;
+}
+
+#team > ul > li > .title {
+    color: deepskyblue;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#team > ul > li > p {
+    font-weight: 100;
+    color: grey;
+}
+
+#team > ul > li > .icons {
+    text-align: center;
+    padding-left: 0;
+}
+
+#team > ul > li > .icons > li {
+    display: inline-block;
+    background-color: lightgrey;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 6px;
+    box-sizing: border-box;
+    margin: -5px 5px;
+}
+
+/* SKILLS */
+
+#skills {
+    background-color: white;
+    height: 800px;
+    position: relative;
+    padding-top: 50px;
+    color: darkslategrey;
+}
+
+#skills > h2 {
+    text-align: center;
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    margin-left: -175px;
+}
+
+#skills > .divider {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 100px;
+}
+
+#skills > p {
+    text-align: center;
+    position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    top: 100px;
+}
+
+#skills > ul {
+    position: absolute;
+    top: 150px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+}
+
+#skills > ul > li {
+    width: 20%;
+    display: inline-block;
+    position: relative;
+}
+
+.portrait {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: pink;
+    background-size: cover;
+}
+
+#skills > ul > li > .name {
+    margin-bottom: 0;
+}
