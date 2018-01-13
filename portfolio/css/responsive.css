@@ -14,7 +14,7 @@
     .toggle {
         display: block;
         background-color: white;
-        padding: 0 20px;
+        padding: 0 10px;
         color: #1ac056;
         font-size: 20px;
         line-height: 60px;
@@ -23,7 +23,7 @@
         text-align: right;
     }
 
-    ul {
+    nav ul {
         display: none;
     }
 
@@ -49,7 +49,6 @@
 
     #about img {
         max-height: inherit;
-
     }
 
     article {
@@ -77,34 +76,24 @@
     .contact-data ul {
         margin: 0px;
     }
-
 }
 
 @media all and (max-width: 768px) {
-    section {
-        padding: 0 40px 50px;
-    }
+
 
     h1 {
         font-size: 3em;
     }
 
-    h2 {
+    header h2 {
         font-size: 1.5em;
     }
 
     .main-header-content {
         padding-top: 100px;
     }
-
-
 }
 
-@media all and (max-width: 576px) {
-    section {
-        padding: 0 10px 30px;
-    }
-}
 
 #drop {
     display: none;

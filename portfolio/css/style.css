@@ -104,12 +104,13 @@ article {
     color: white;
     padding: 30px;
     overflow: auto;
+    margin-top: 0;
+
 }
 
 #contact h2 {
-    color: white;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 address {
@@ -148,7 +149,8 @@ address {
 
 .contact-form {
     position: relative;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 50%;
     float: right
 }
@@ -194,9 +196,8 @@ input:focus,
     background-position: center;
     background-size: cover;
     display: inline-block;
-    width: 30%;
+    width: 33.33%;
     position: relative;
-    margin-bottom: 50px;
 }
 
 #portfolio-item-1 {
@@ -252,6 +253,10 @@ footer p {
     color: white;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#drop {
+    display: none;
 }
 
 .toggle {
