@@ -1,0 +1,7 @@
+a[href*=".doc"] {
+    color: pink;
+}
+
+a[href*=".jpg"] {
+    color: chocolate;
+}

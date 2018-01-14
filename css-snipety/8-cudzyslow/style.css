@@ -1,0 +1,14 @@
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "\22";
+}
+
+
+blockquote[lang="en"]:before,
+blockquote[lang="en"]:after,
+q[lang="en"]:before,
+q[lang="en"]:after {
+    content: "*";
+}

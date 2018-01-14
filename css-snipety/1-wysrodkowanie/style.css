@@ -1,0 +1,45 @@
+/* MAIN STYLES */
+
+.large {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue
+}
+
+/* POSITION */
+
+#position.large {
+    position: relative;
+}
+
+#position .small {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+/* FLEX */
+
+#flex.large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MARGIN */
+
+#margin.large {
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+#margin .small {
+    margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+div {
+    width: 500px;
+    overflow: hidden;
+    border: red 5px solid;
+
+}
+
+img {
+    z-index: -10;
+    width: 100%;
+    margin-bottom: -10px;
+    transition: 0.5s all;
+}
+
+div:hover img {
+    transform: scale(1.2);
+}
