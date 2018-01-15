@@ -10,8 +10,6 @@ input {
     display: none;
 }
 
-
-
 input:checked + label::before {
     content: "\f00c";
     font-family: 'FontAwesome';

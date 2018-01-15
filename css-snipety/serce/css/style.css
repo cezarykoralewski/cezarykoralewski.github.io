@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-size: 4em;
+}
+
+i {
+    color: red;
+    animation: bicie 2s infinite;
+}
+
+@keyframes bicie {
+    50% {
+        transform: scale(1.5);
+    }
+}

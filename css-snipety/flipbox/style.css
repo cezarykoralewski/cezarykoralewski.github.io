@@ -1,0 +1,37 @@
+body {
+    color: white;
+    font-size: 3em;
+    text-align: center
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    transition: 3s all;
+    backface-visibility: hidden;
+}
+
+section {
+    position: relative;
+}
+
+#front {
+    background-color: pink;
+    position: absolute;
+    top: 0;
+}
+
+#back {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+}
+
+section:hover #back {
+    transform: rotatey(360deg);
+}
+
+section:hover #front {
+    transform: rotatey(180deg);
+}
